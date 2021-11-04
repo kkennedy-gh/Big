@@ -1,0 +1,102 @@
+
+
+* {
+    padding:0;
+    margin:0;
+}
+
+
+body{
+    font-family:helvetica, arial, sans-serif;
+    background-image:url(../images/uniRep.jpeg);
+    background-attachment:fixed;
+}
+
+main{
+    border: 2px solid black;
+    background:grey;
+    width: 940px;
+    margin: 2px;
+    padding:2px;
+}
+aside{
+    background:brown;
+    width:510px;
+    float:right;
+}
+header{
+    margin-bottom:2px;
+    background:1dff00;
+}
+#nav_menu {
+    background:black;
+    padding:1em 0;
+}
+#nav_menu ul li{
+    text-align: center;
+padding: 0.15em
+  border-top: 2px solid black;
+   border-bottom: 2px solid black;
+    display:inline;
+}
+    
+#wrapper {
+  width:940px;
+    margin:20px auto;/*20px from the top and bottom, AND auto from the right and left*/
+    border:1px solid blue;
+    background:green;
+    overflow: hidden;
+    padding:20px;
+}
+
+footer {
+     height:50px;
+     line-height: 50px;
+     background:tan;
+     clear:both;
+}
+
+footer ul {
+    list-style-type:none;
+    margin-left:20px;
+    float:left;
+}
+
+footer li {
+    float:left;
+    margin-right:30px;
+}
+
+a {
+    color:brown;
+    
+}
+img.right {
+    float:right;
+/* when floating to the right, add margin left*/
+    margin: 0 0 10px 30px;
+    padding-left: 2px;
+}
+img.left {
+    float:left;
+    /* when floating to the right, add margin right*/
+    margin:0 30px 20px 0;
+    padding-right: 2px;
+}
+.center {
+    display:block;
+    margin:20px auto;
+    text-align:center;
+}
+
+h1, h2, h3 {
+    margin-bottom:8px; 
+}
+
+p {
+    margin-bottom:20px;
+    line-height:1.5; /*means 1.5 times*/
+}
+img {
+    display:block;
+}
